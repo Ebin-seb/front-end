@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.div1 {
+  height: 250px;
+  background-color: rgb(17, 17, 17);
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+.p {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  outline: none;
+}
+.div2 {
+  height: 150px;
+  border: 1px solid;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+}
+.div3 {
+  height: 300px;
+  background-color: rgb(17, 17, 17);
+  padding-top: 25px;
+}
+.cards {
+  height: 250px;
+  width: 300px;
+  background-color: rgb(245, 243, 243);
+  border-radius: 15px;
+  margin-left: 120px;
+  display: inline-block;
+}
+img {
+  height: 150px;
+  width: 250px;
+  /* background-color:blue; */
+  background-size: cover;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-left: 25px;
+}
+.card-head {
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+  margin-left: 20px;
+  font-size: small;
+}
+
+.div4 {
+  height: 150px;
+  border: 1px solid;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+}
+.parent {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+.div5 {
+  height: 300px;
+  width: 50%;
+  background-color: lightseagreen;
+  position: absolute;
+  left: 0px;
+  text-align: center;
+  padding: 100px;
+}
+.div6 {
+  height: 300px;
+  width: 50%;
+  background-color: rgb(28, 29, 29);
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  padding: 100px;
+  color: white;
+}
+.icon {
+  right: 120px;
+  bottom: 100px;
+  position: fixed;
+  z-index: 1000;
+  color: green;
+  font-size: 40px;
+  font-weight: bolder;
+}

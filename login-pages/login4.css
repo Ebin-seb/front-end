@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height:100vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/free-vector/blank-landscape-scene-nature-park-sunset-time_1308-61312.jpg?ga=GA1.1.389461883.1727880972&semt=ais_items_boosted&w=740);
+    background-size: cover;
+    padding: 10px;
+
+}
+.login-box {
+    height:60vh;
+    width:30vw;
+    background-color: rgba(0, 0, 0, 0.855);
+    margin:auto;
+    margin-top:100px;
+    border-radius: 40px;
+
+}
+form{
+    color:white;
+    text-align: center;
+}
+form h2{
+    font-weight: bolder;
+    padding: 30px;
+    font-size: 40px;
+    text-shadow: 6px 6px 3px rgba(255, 255, 255, 0.5);
+}
+form input{
+    background: transparent;
+    padding:10px;
+    border-top: none;
+    border-left:2px solid white;
+    border-right:none;
+    border-bottom-left-radius: 30px;
+    border-bottom:2px solid white ;
+    width:320px;
+    margin-top:20px;
+    color:white;
+    outline:none;
+    padding-left: 50px;
+}
+.forget{
+    text-decoration-line: underline;
+    margin:30px;
+}
+.forget:hover{
+    color:red;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+form button{
+    padding: 2px;
+    margin-top:20px;
+    background-color: transparent;
+    border:1px solid white;
+    border-radius: 20px;
+    width:250px;
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+}
+form button:hover{
+    padding:5px;
+    width:300px;
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.input-icon1,.input-icon2 {
+    position:relative;
+}
+.input-icon1 i,
+.input-icon2 i {
+    position: absolute;
+    bottom:14px;
+    left:70px;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+
+.footer {
+    height:40vh;
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+    padding-top:70px;
+}
+ .circle {
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: white;
+    margin:auto;
+    display: inline-block;
+    margin-left:20px;
+    font-size: 35px;
+}
+.circle:hover{
+    background-color: rgb(243, 2, 2);
+    color:white;
+    box-shadow: 0px 0px 30px rgb(253, 2, 2);
+}
+.navigations {
+    padding: 10px;
+    margin-top: 30px;
+    color:white;
+}
+.navigations a{
+    margin-left:60px;
+}
+.navigations a:hover{
+    color:red;
+    
+}
+.copyright{
+    color:white;
+    height:60px;
+    width:100%;
+    background-color: black;
+    margin-top:20px;
+    padding: 10px;
+}
+.copyright p{
+    margin-top:10px
+}
+.copyright span{
+    color:rgba(27, 235, 8, 0.897);
+    font-weight: bolder;
+}
+.copyright i{
+    color:white;
+    font-size: larger;
+}

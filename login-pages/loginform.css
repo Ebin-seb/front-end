@@ -1,0 +1,81 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height:100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.719)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe_OlHEe2L-0VtexCxjIV5tc0dLor3wd57Yg&s);
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    height:80%;
+    width:30%;
+    backdrop-filter: blur(10px);
+/* background-color: rgb(19, 19, 19); */
+    border-radius: 20px    ;
+        padding:20px;
+}
+form {
+    background: linear-gradient(rgb(71, 4, 228),rgb(243, 7, 204));
+    border-radius: 20px;
+    padding:10px;
+    height:100%;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+h2 {
+    text-align: center;
+    color:white;
+}
+input{
+    color:white;
+    border: none;
+    padding:10px;
+    /* margin-top: 10px; */
+    outline:none;
+    background-color: transparent;
+}
+label {
+    color:white;
+    margin-left:10px ;
+}
+.form-icon{
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+    margin:auto;
+}
+button {
+    margin-left:90px;
+    margin-top:30px;
+    padding:5px;
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+a {
+    color:white;
+    text-decoration: none;
+    margin-left:80px;
+}
+button:hover{
+    color:white;
+    background-color: black;
+}
+.input-icon {
+    color:white;
+    background-color: rgba(240, 248, 255, 0);
+    border-bottom: 1px solid white;
+}
+a:hover{
+    color:black
+}

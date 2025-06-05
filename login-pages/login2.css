@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  background: linear-gradient(rgba(93, 4, 238, 0.692), rgb(179, 35, 223)),
+    url(https://img.freepik.com/free-photo/3d-background-with-white-cubes_23-2150473005.jpg?ga=GA1.1.389461883.1727880972&semt=ais_hybrid&w=740);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-box {
+  background-color: white;
+  border-radius: 10px;
+  height: 80vh;
+  width: 25%;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 0 60px black;
+}
+h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+input {
+  font-size: small;
+  outline: none;
+  color: black;
+  border: none;
+  margin-top: 10px;
+  width: 70%;
+  padding: 10px;
+}
+.form-inp {
+  font-size: small;
+  font-weight: bold;
+}
+.forgot-password {
+  font-size: small;
+  font-weight: bolder;
+  position: absolute;
+  right: 40px;
+  margin-top: 20px;
+}
+button {
+  background: linear-gradient(to left, rgb(74, 9, 224), rgb(238, 6, 199));
+  padding: 7px;
+  color: white;
+  border-radius: 20px;
+  width: 90%;
+  border: none;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+button:hover {
+  color: black;
+  background: linear-gradient(rgb(233, 142, 6), rgb(168, 226, 7));
+}
+.form-icons {
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  margin-right: 10px;
+}
+.text {
+  /* position: absolute; */
+  text-align: center;
+}
+.icons {
+  text-align: center;
+  font-size: 30px;
+}
+
+.signup {
+  text-decoration: none;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 10px;
+  right: 40%;
+  text-align: center;
+    cursor: pointer;
+}
+.signup:hover {
+  color: red;
+}
+.text2 {
+  position: absolute;
+  text-align: center;
+  bottom: 40px;
+  left: 110px;
+}
