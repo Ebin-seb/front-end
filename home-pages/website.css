@@ -1,0 +1,353 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  padding-top: 5px;
+  position: relative;
+}
+.video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+video {
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+.navbar {
+  height: 60px;
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+  z-index: 1000;
+  color: rgb(12, 12, 12);
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  padding: 15px 30px 10px 30px;
+}
+.navbar .logo {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+}
+.logo:hover {
+  color: blue;
+}
+.navlinks {
+  display: flex;
+  flex-flow: row wrap;
+}
+.navlinks .a {
+  width: 150px;
+
+  text-align: center;
+  /* margin-left:80px; */
+}
+.navlinks a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.navlinks .a:hover {
+  color: black;
+  background-color: rgb(52, 142, 202);
+  padding: 2px;
+}
+#home {
+  height: 90vh;
+  width: 60vw;
+  margin: auto;
+  margin-top: 60px;
+
+  padding: 10px;
+  padding-left: 100px;
+  z-index: 10;
+  color: white;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+#home h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  margin-top: 150px;
+}
+#home span {
+  color: red;
+}
+#home p {
+  margin-top: 40px;
+}
+.next {
+  width: 80px;
+  height: 100px;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  margin-left: 280px;
+  margin-top: 60px;
+}
+.next i {
+  font-weight: 100px;
+  color: rgb(255, 254, 254);
+  z-index: 2;
+  font-size: 6em;
+}
+.next i:hover {
+  color: blue;
+  transition: all 0.7s ease-in-out;
+  transform: scale(1.5, 1.5);
+}
+#what {
+  background-color: white;
+  padding: 100px;
+}
+#what h1 {
+  color: blue;
+  margin-left: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+}
+#what p {
+  font-size: large;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  line-height: 100 px;
+}
+.card {
+  height: 700px;
+  padding-top: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 2em;
+  margin-top: 100px;
+  /* justify-content */
+}
+.card .items {
+  background-color: rgba(156, 154, 154, 0.582);
+  padding: 10px;
+  border-radius: 20px;
+  height: 300px;
+  width: 550px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+.items .icon {
+  color: blue;
+  font-size: 5em;
+}
+.items .text {
+  margin-left: 50px;
+  font-size: large;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  line-height: 100 px;
+}
+.image {
+  top: 100vh;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: url(/images/atoms.png);
+  z-index: 100;
+  position: fixed;
+}
+.btn1 {
+  padding: 15px;
+  background-color: blue;
+  width: 200px;
+  margin-left: 300px;
+  color: white;
+  border: none;
+}
+.btn2 {
+  padding: 15px;
+  background-color: blue;
+  width: 200px;
+  margin-left: 400px;
+  color: white;
+  border: none;
+}
+
+.btn1:hover,
+.btn2:hover {
+  color: white;
+  background-color: black;
+}
+
+#testimonials {
+  height: 100vh;
+  backdrop-filter: blur(10px);
+}
+.heading {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.heading h1 {
+  color: white;
+  font-size: 50px;
+  padding: 20px 0px 20px 0px;
+}
+.quotes {
+  color: white;
+  gap: 2em;
+  display: flex;
+  margin-top: 80px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.persons {
+  width: 300px;
+  height: 320px;
+  padding: 10px;
+  position: relative;
+  backdrop-filter: blur(30px);
+}
+.persons:hover {
+  background-color: white;
+  color: blue;
+  padding: 10px;
+  border-radius: 20px;
+}
+.persons .img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 90px;
+  top: 30px;
+}
+.img img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+.persons .content {
+  position: absolute;
+  top: 180px;
+  font-style: italic;
+}
+.persons .name {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
+#gallery {
+  background-color: white;
+  padding: 10px;
+}
+.gallery-head {
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+.gallery-head h1 {
+  color: blue;
+  padding-bottom: 20px;
+  font-size: 4em;
+}
+.gallery-items {
+  padding: 40px 0px 50px 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2em;
+}
+.gallery-images,
+.gallery-images img {
+  height: 300px;
+  width: 200px;
+  border-radius: 20px;
+}
+.gallery-images img:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.2, 1.2);
+  box-shadow: 0px 0px 40px black;
+}
+#contact {
+  /* height:100vh; */
+  background-image: linear-gradient(rgba(8, 8, 8, 0.582), rgba(7, 7, 7, 0.623)),
+    url(/images/atoms.png);
+  position: relative;
+}
+
+form {
+  margin-left: 200px;
+  padding: 50px;
+  width: 400px;
+  text-align: center;
+}
+form input {
+  margin-top: 20px;
+  padding: 10px;
+  width: 350px;
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+}
+form textarea {
+  margin-top: 20px;
+  width: 350px;
+  width: 350px;
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+}
+form button {
+  padding: 15px;
+  background-color: blue;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 60px;
+  color: white;
+  border: none;
+}
+form button:hover {
+  color: blue;
+  background-color: white;
+}
+.contact-icons {
+  height: 400px;
+  width: 500px;
+  position: absolute;
+  top: 250px;
+  right: 140px;
+}
+.contact-icons a,
+.contact-icons i{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 50px;
+}
+.contact-icons a:hover{
+  color:blue; 
+}
+.foot{
+  position: absolute;
+  width:100vw;
+  bottom:5px;
+  
+  text-align: center;
+  color:white;
+}
